@@ -1,0 +1,42 @@
+
+  .ant-layout-header{
+      background-color: #fff;
+  }
+  .ant-layout-content{
+    width: 51vw;
+    color: gray;
+    border-radius: 5px;
+  }
+  .ant-layout .ant-layout-has-sider{
+      min-height: 50vh;  
+  }
+  .ant-layout-sider.ant-layout-sider-dark{
+    background: white;
+  }
+  .ant-layout-sider-children{
+    border-radius: 30px;
+    background-image: linear-gradient(blue, purple);
+  }
+  .ant-menu.ant-menu-light.ant-menu-root.ant-menu-inline{
+    background-image: linear-gradient(blue, purple);
+    color: white;
+    top: 22vh;
+    position: relative;
+  }
+  .ant-menu-item.ant-menu-item-only-child.ant-menu-item-selected{
+    background-color: white;
+  }
+  .ant-menu-item.ant-menu-item-only-child{
+    font-size: 14px;
+    font-weight: bold;
+  }
+  .sideNav{
+    min-height: 50vh;
+    background-color: rgb(22, 216, 141);
+  }
+  .comingSoon{
+    top: 30vh;
+    position: relative;
+    color: lightgray;
+    font-size: 50px;
+  }

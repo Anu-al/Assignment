@@ -1,0 +1,22 @@
+
+.signOut{
+background-color: tomato;
+border-radius: 50px;
+color: white;
+font-weight: bold;
+}
+.signOut:hover, .signOut:focus{
+    background-color: tomato;
+    color: white;
+    border-color: tomato;
+}
+
+
+.ant-modal-content{
+    width: 17vw;
+    height: 40vh;
+}
+.ant-modal-wrap, .ant-image-preview-wrap{
+    top: 70px;
+    left: 49vw;
+}

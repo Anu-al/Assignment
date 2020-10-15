@@ -1,0 +1,45 @@
+.App {
+  text-align: center;
+  font-weight: 500;
+  color: gray;
+}
+
+li{
+  font-weight: 100;
+  font-size: 12px;
+}
+.ant-list {
+  width: 30vw;
+}
+.ant-list-bordered{
+  border-radius: 5px !important;
+}
+.ant-list-bordered.ant-list-sm .ant-list-item {
+  display: flex;
+}
+a.nt-list.ant-list-sm.ant-list-split.ant-list-bordered{
+  background: white;
+}
+.ant-list {
+  height: 60vh;
+  overflow-y: scroll;
+  top: 20vh;
+  left: 35vw;
+  border-radius: 5px;
+  
+}
+.ant-list-header{
+  background-color: #f7f7f7 !important;
+}
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background-color: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background-color: gainsboro;
+  border-radius: 5px;
+}
+
