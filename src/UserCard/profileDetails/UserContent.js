@@ -47,7 +47,7 @@ class UserContent extends React.Component {
         <hr />
         <Row style={{ lineHeight: 2 }}>
           <Col span={12}>
-            <Avatar src={UserDetails.profilepicture}></Avatar>
+            <Avatar style={{width:"100px", height:"100px"}} src={UserDetails.profilepicture}></Avatar>
             <Row>{UserDetails.name}</Row>
             <Row>Username: {UserDetails.username}</Row>
             <Row>email: {UserDetails.email}</Row>
